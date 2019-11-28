@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+@media screen and (max-width: 1023px){
+
+table {
+    border-collapse: collapse;
+}
+
+#table1 {
+    /* margin: 8vw; */
+    margin-top: 0vw;
+    margin-left: 0%;
+    width: 100%;
+    height: 125vw;
+    /* float: left; */
+}
+
+#table1 th, td {
+    padding: 22px;
+}
+
+#table1 td {
+    font-size: 5.5vw;
+    background: floralwhite;
+    height: 2.8vw;
+}
+
+thead tr {
+    border-bottom: solid 1px #444;
+    background-color: #A9A9A9;
+    font-size: 7vw;
+}
+
+#table1 thead th{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5vw;
+}
+
+tbody tr:hover {
+    background-color: #dedede;
+}
+
+tfoot {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+
+#jogar {
+    margin-left: 0%;
+    float: left;
+    height: 20vw;
+    font-size: 5.35vw;
+    visibility: hidden; 
+}
+
+#preencher {
+    margin-left: 0%;
+    /* float: left; */
+    height: 18vw;
+    font-size: 5.35vw;
+    margin-top: 2vw;
+}
+
+#table2 {
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+    margin-top: 0.3%;
+    /* visibility: hidden; */
+}
+
+#table2 th, td {
+    padding: 22px;
+}
+
+#table2 td {
+    font-size: 7.5vw;
+    background: floralwhite;
+    text-align: center;
+    height: 8vw;
+}
+
+#table1 thead th {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5.5vw;
+}
+
+.marcado{
+    color: red;
+    font-weight: bold;   
+ }
+
+ #game {
+    width: 100%;
+    min-height: 449vw;
+}
+#regrasDiv {
+    float: left;
+    border: 5px solid;
+    width: 96%;
+    /* height: 36vw; */
+    margin-top: 14vw;
+    border-radius: 19px;
+    min-height: 132vw;
+    border-color: coral;
+    background-color: cornsilk;
+}
+#tabelaNumeros {
+    width: 100%;
+    height: 121vw;
+    /* border: 1px solid; */
+    float: left;
+}
+
+#toTable2 {
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+    margin-top: 48vw;
+    /* border: 1px solid; */
+}
+#titleRegras {
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+    /* align-items: center; */
+    float: left;
+    font-family: cursive;
+    font-weight: bold;
+    color: maroon;
+}
+#textRegras {
+    font-size: 6vw;
+    line-height: 7.5vw;
+    text-align: justify;
+    margin: 0px 14px;
+    color: maroon;
+    margin-bottom: 2px;
+    margin-top: 1vw;
+}
+}
+@media screen and (min-width: 1024px){
+
+    table {
+        border-collapse: collapse;
+    }
+    
+    #table1 {
+        /* margin: 8vw; */
+        margin-top: 0vw;
+        margin-left: 7%;
+        width: 85%;
+        height: 0vw;
+        float: left;
+    }
+    
+    #table1 th, td {
+        padding: 22px;
+    }
+    
+    #table1 td {
+        font-size: 2.5vw;
+        background: floralwhite;
+        height: 2.8vw;
+    }
+    
+    thead tr {
+        border-bottom: solid 1px #444;
+        background-color: #A9A9A9;
+    }
+    
+    #table1 thead th{
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5vw;
+    }
+    
+    tbody tr:hover {
+        background-color: #dedede;
+    }
+    
+    tfoot {
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #jogar {
+        margin-left: 7%;
+        float: left;
+        height: 3vw;
+        font-size: 1.35vw;
+        visibility: hidden;
+    }
+    
+    #preencher {
+        margin-left: 7%;
+        /* float: left; */
+        height: 3vw;
+        font-size: 1.35vw;
+        margin-top: 2vw;
+    }
+    
+    #table2 {
+        width: 72%;
+        margin-left: 7%;
+        float: left;
+        margin-top: 0.3%;
+        display: block;
+    }
+    
+    #table2 th, td {
+        padding: 22px;
+    }
+    
+    #table2 td {
+        font-size: 1.5vw;
+        background: floralwhite;
+        text-align: center;
+        height: 3vw;
+    }
+    
+    #table2 thead th{
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.0vw;
+    }
+    
+    .marcado{
+        color: red;
+        font-weight: bold;   
+     }
+    
+     #game {
+        width: 100%;
+        min-height: 45vw;
+    }
+    #regrasDiv {
+        float: left;
+        border: 5px solid;
+        width: 39%;
+        /* height: 36vw; */
+        margin-top: 5vw;
+        border-radius: 19px;
+        min-height: 37vw;
+        border-color: coral;
+        background-color: cornsilk;
+        margin-left: 11%;
+    }
+    #tabelaNumeros {
+        width: 35%;
+        height: 47vw;
+        /* border: 1px solid; */
+        float: left;
+    }
+    
+    #toTable2 {
+        width: 12%;
+        margin-left: 0%;
+        float: left;
+        margin-top: 5.2%;
+        /* border: 1px solid; */
+    }
+    #titleRegras {
+        width: 100%;
+        text-align: center;
+        font-size: 2vw;
+        /* align-items: center; */
+        float: left;
+        font-family: cursive;
+        font-weight: bold;
+        color: maroon;
+    }
+    #textRegras {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: justify;
+        margin: 0px 14px;
+        color: maroon;
+        margin-bottom: 2px;
+    }
+
+}

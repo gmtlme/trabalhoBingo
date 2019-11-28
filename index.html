@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bingo</title>
+</head>
+<body>
+    
+    <section id="game">
+    <div id="tabelaNumeros">
+    <button type="button" id="preencher" onclick="preencherATabela()">Preencher Cartela</button>
+    <table border='1' id="table1">
+        
+        <thead>
+             <tr>
+                 <th colspan="5">Cartela</th>
+            
+            </tr>
+        </thead>   
+    
+        <tbody>
+        </tbody>
+    </table>
+    <button type="button" id="jogar" onclick="sortearNumero()">Sortear Nº</button>
+    </div>   
+    
+    <div id="toTable2">
+    <table border="1px" id="table2">
+
+    <thead>
+            <tr>
+                <th>Número Sorteado</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</div>
+   
+    <div id="regrasDiv">
+            <a id="titleRegras">Como Jogar:</a>
+        <p id="textRegras"> Para iniciar o jogo, basta clickar no botão "preencher cartela", então sua tabela ganhará 25 números aleátorios. <br/> Após isso basta clickar no botão sortear número, que um número aleatório será sorteado! <br/>Caso sua tabela possua o número sorteado, o mesmo será destacado com a cor vermelha. <br/>Quando o jogo acaba? <br/>O jogo acaba quando sorteado 35 números, ou a tabela for completamente preenchida, após isso, será divulgado o resultado da rodada.
+                                                    
+        </p>
+        
+    </div>
+    
+    
+</section>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>
