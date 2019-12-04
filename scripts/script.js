@@ -23,15 +23,18 @@ function preencherATabela(){
                     
                     Numeros = JSON.parse(this.responseText);
                     tbody1.innerHTML = ' '
-                          
-                    for(let i = 0; i < 20; i++){
-                       
+                    console.log(Numeros);
+            
+                
+                    for(let i = 0; i <= 20; ){
+                        
                         tbody1.innerHTML += `<tr> <td> ${Numeros[i]} </td> <td> ${Numeros[i+1]} </td> <td> ${Numeros[i+2]} </td> <td> ${Numeros[i+3]} </td> <td> ${Numeros[i+4]} </td>  </tr>`;
-                        i+=3
+                        i = i + 5;
                     }   
+                }
                 
  				}
-			};
+			
  			xhttp.open("GET", "dados.php", true);
              xhttp.send();
             }
